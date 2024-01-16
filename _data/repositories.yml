@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - devnithw
+
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - devnithw/ecg-monitor
+  - devnithw/dsp-python
+  - devnithw/julia-tutorials
+  - devnithw/UnmaskedSakura
