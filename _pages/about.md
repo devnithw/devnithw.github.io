@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Engineering Undergraduate at University of Moratuwa
 
 profile:
   align: right
@@ -15,5 +15,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello world! My name is Chanupa Devnith Wijesinghe and I am a second year engineering undergraduate at `University of Moratuwa, Sri Lanka`. I am currently studying `Biomedical Engineering` at the `Department of Electronics and Telecommunications Engineering`. I am interested in studying `machine learning, deep learning and signal processing` with thorough understanding of the underlying mathematics to pioneer effective solutions in the healthcare sector.
+Hello world! My name is Chanupa Devnith Wijesinghe and I am a second year engineering undergraduate at `University of Moratuwa`. I am currently studying Biomedical Engineering at the Department of Electronics and Telecommunications Engineering. I am interested in studying `machine learning, deep learning and signal processing` with thorough understanding of the underlying mathematics to pioneer effective solutions in the healthcare sector.
 
