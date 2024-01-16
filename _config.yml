@@ -103,7 +103,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach me through wijesinghecd.21@uom.lk
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -264,7 +264,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["machine-learning", "signal-processing", "mathematics", "computer-vision", "deep-learning"] # these tags will be displayed on the front page of your blog
+display_tags: ["machine-learning", "signal-processing", "computer-vision"] # these tags will be displayed on the front page of your blog
 display_categories: ["tutorial"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
