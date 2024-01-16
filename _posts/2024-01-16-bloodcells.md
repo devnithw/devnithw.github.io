@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blood cell classification tutorial [Computer Vision]
-date: 2023-07-04 08:57:00-0400
+title: Blood cell image classification [Computer Vision]
+date: 2022-08-02 08:57:00-0400
 description: Classifying blood cell images using a Convolutional Neural Network
 tags: kaggle deep-learning computer-vision jupyter
 categories: tutorial
@@ -11,7 +11,7 @@ giscus_comments: false
 related_posts: false
 ---
 
-Originally published on Kaggle:
+`This notebook was riginally published on Kaggle. Therefore it requires datasets which were directly imported from Kaggle datasets.`
 
 
 {::nomarkdown}
