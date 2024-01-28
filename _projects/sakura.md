@@ -1,6 +1,6 @@
 ---
 layout: page
-title: unmasked sakura
+title: Unmasked Sakura
 description: A mobile game developed using Unity Engine
 img: assets/img/us1.jpg
 importance: 4

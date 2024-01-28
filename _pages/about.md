@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Engineering Undergraduate at University of Moratuwa
+subtitle: Engineering Undergraduate
 
 profile:
   align: right
