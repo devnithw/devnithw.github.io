@@ -1,14 +1,17 @@
 ---
 layout: page
 title: Robot Computer Vision System
-description: object and color identification system made for SLRC 2024
+description: Object and color identification system made for SLRC 2024
 img: assets/img/cyl_detect.png
-importance: 3
+importance: 1
 category: software
 ---
 
 # Sri Lanka Robotics Challenge 2024
 One of the tasks of SLRC 2024 is for the robot to identify whether the object at the center of a ring is a cube or a cylinder. We tackled this task using computer vision. We experimented with the two approaches mentioned below.
+
+Watch the video:
+{% include video.liquid path="https://www.youtube.com/watch?v=JsFgmXSXnWw" class="img-fluid rounded z-depth-1" %}
 
 # Object Detection
 ## Training a Deep Learning model using Tensorflow
