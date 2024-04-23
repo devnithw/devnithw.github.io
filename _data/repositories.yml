@@ -3,6 +3,8 @@ github_users:
 
 
 github_repos:
+  - devnithw/mfcc-speaker-recognition
+  - devnithw/SLRC-vision-system
   - devnithw/ecg-monitor
   - devnithw/dsp-python
   - devnithw/julia-tutorials
