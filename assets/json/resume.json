@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Devnith Wijesinghe",
+    "name": "Chanupa Devnith Wijesinghe",
     "label": "Engineering undergraduate",
     "image": "",
     "email": "wijesinghecd.21@uom.lk",
     "phone": "",
     "url": "https://devnith.github.io/",
-    "summary": "2nd year Biomedical Engineering undergraduate at University of Moratuwa",
+    "summary": "Second year Biomedical Engineering undergraduate at University of Moratuwa",
     "location": {
       "address": "",
       "postalCode": "",
@@ -38,8 +38,8 @@
       "organization": "Rotaract Club of Unviersity of Moratuwa",
       "position": "Co-director of Membership development",
       "url": "https://rotaractmora.org/",
-      "startDate": "June 2023",
-      "endDate": "June 2024",
+      "startDate": "2023",
+      "endDate": "2024",
       "summary": "Acted as chairperson for community service and club service projects. Graphcic designer.",
       "highlights": ["Awarded Spirit of Service award for active membership and volunter service"]
     },
@@ -60,8 +60,8 @@
       "url": "https://uom.lk/",
       "area": "Biomedical Engineering",
       "studyType": "Bachelor of Science in Engineering",
-      "startDate": "May 2022",
-      "endDate": "May 2026",
+      "startDate": "2022",
+      "endDate": "2026",
       "score": "3.98",
       "courses": ["Signal processing", "Machine Learning", "Deep Learning"]
     },
@@ -71,8 +71,8 @@
       "url": "https://www.richmondcollege.lk/",
       "area": "",
       "studyType": "High school",
-      "startDate": "Jan 2012",
-      "endDate": "September 2020",
+      "startDate": "2012",
+      "endDate": "2020",
       "score": "3A passes for GCE Advanced Level examination.",
       "courses": ["Physical science"]
     }
@@ -161,8 +161,8 @@
       "name": "Design of an ECG Monitor using analog electronic Components",
       "summary": "Development of an ECG Monitor prototype for the analog project in EN2091",
       "highlights": ["Analog circuit design", "Filter design", "Signal processing"],
-      "startDate": "June 2023",
-      "endDate": "December 2023",
+      "startDate": "2023",
+      "endDate": "2023",
       "url": "https://devnithw.github.io/projects/ecg/"
     }
   ]
