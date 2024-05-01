@@ -10,7 +10,7 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Galle",
+      "city": "Colombo",
       "countryCode": "LK",
       "region": "Southern"
     },
@@ -31,9 +31,7 @@
       "endDate": "present",
       "summary": "Graphic desginer and web developer",
       "highlights": ["Graphic Design"]
-    }
-  ],
-  "volunteer": [
+    },
     {
       "organization": "Rotaract Club of Unviersity of Moratuwa",
       "position": "Co-director of Membership development",
@@ -42,6 +40,33 @@
       "endDate": "2024",
       "summary": "Acted as chairperson for community service and club service projects. Graphcic designer.",
       "highlights": ["Awarded Spirit of Service award for active membership and volunter service"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Richmond College Science Society",
+      "position": "President",
+      "startDate": "2019",
+      "endDate": "2020"
+    },
+    {
+      "organization": "RichMUN'21",
+      "position": "Head of Public Relations",
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "organization": "Electronic Club",
+      "position": "Graphic designer",
+      "startDate": "2023",
+      "endDate": "Present"
+    },
+    {
+      "organization": "Mathematics Society University of Moratuwa",
+      "position": "Graphic designer",
+      "url": "https://moramaths.wordpress.com/",
+      "startDate": "2022",
+      "endDate": "2023"
     },
     {
       "organization": "IEEE EMBS Student Chapter Branch at University of Moratuwa",
@@ -83,7 +108,32 @@
       "date": "May 2022",
       "awarder": "Rotaract Club of University of Moratuwa",
       "url": "",
-      "summary": "'"
+      "summary": "Award for outstanding contribution and service at Rotaract Mora"
+    },
+    {
+      "title": "Dean's list placement",
+      "awarder": "University of Moratuwa",
+      "url": "",
+      "summary": "Dean's list awardee for semesters 1,2 and 3"
+    },
+    {
+      "title": "Honorable Mention",
+      "awarder": "Sri Lanka Chemistry Olympiad",
+      "url": "",
+      "date": "January 2020"
+    },
+    {
+      "title": "Bronze Medal",
+      "awarder": "Sri Lanka All Island Mathematics Quiz",
+      "url": "",
+      "date": "January 2020"
+    },
+    {
+      "title": "Principal's Medal",
+      "awarder": "Richmond College Galle",
+      "url": "",
+      "date": "December 2018",
+      "summary": "Best results for O/L examniation"
     }
   ],
   "certificates": [
@@ -129,6 +179,37 @@
         "Speech Recognition",
         "Pattern Recognition",
         "Image processing"
+      ]
+    },
+    {
+      "name": "Embedded Machine Learning",
+      "level": "Novice",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Nano 33 BLE Sense",
+        "TinyML",
+        "Raspberry Pi",
+        "Image processing"
+      ]
+    },
+    {
+      "name": "PCB Design",
+      "level": "Novice",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Altium Designer",
+        "KiCAD"
+      ]
+    },
+    {
+      "name": "Scientific Computing",
+      "level": "Expert",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "MATLAB",
+        "Julia",
+        "NumPy",
+        "Sci-kit Learn"
       ]
     }
   ],
