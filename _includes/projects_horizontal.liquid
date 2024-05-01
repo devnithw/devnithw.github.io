@@ -4,25 +4,55 @@
       <div class="row g-0">
         {% if project.img %}
           <div class="card-img col-md-6">
-            {% include figure.liquid path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
+            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
           </div>
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {% comment %} tags {% endcomment %}
+            <div class="row ml-1 mr-1 p-0" style="font-size: 14px; color: #a3a2a2;">
+              {% for tag in project.tags %}
+                {{ tag }}
+                {% if forloop.last == false %}
+                  •
+                {% endif %}
+              {% endfor %}
+            </div>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
-                  <div class="icon" data-toggle="tooltip" title="Code Repository">
-                    <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                  <div
+                    class="icon"
+                    data-toggle="tooltip"
+                    title="Code Repository">
+                    <a href="{{ project.github }}">
+                      <i class="fa-brands fa-github gh-icon"></i>
+                    </a>
                   </div>
                   {% if project.github_stars %}
-                    <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                    <span
+                      class="stars"
+                      data-toggle="tooltip"
+                      title="GitHub Stars">
                       <i class="fa-solid fa-star"></i>
                       <span id="{{ project.github_stars }}-stars"></span>
                     </span>
                   {% endif %}
+                </div>
+              {% endif %}
+              <span style="margin-right: 5px;"></span>
+              {% if project.website %}
+                <div class="github-icon">
+                  <div
+                    class="icon"
+                    data-toggle="tooltip"
+                    title="Code Repository">
+                    <a href="{{ project.website }}">
+                      <i class="fa-solid fa-globe"></i>
+                    </a>
+                  </div>
                 </div>
               {% endif %}
             </div>

@@ -5,6 +5,8 @@ description: Object and color identification system made for SLRC 2024
 img: assets/img/cyl_detect.png
 importance: 1
 category: software
+tags : ['Computer Vision', 'Tensorflow', 'Raspberry Pi', 'Arduino']
+github: https://github.com/devnithw/SLRC-vision-system
 ---
 
 ## Sri Lanka Robotics Challenge 2024

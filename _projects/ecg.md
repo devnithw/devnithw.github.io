@@ -6,6 +6,8 @@ img: assets/img/resonova.jpg
 importance: 1
 category: hardware
 related_publications: false
+tags : ['Analog Electronics',"Signal Processing", "ESP32"]
+github: https://github.com/devnithw/ecg-monitor
 ---
 
 During our semester 3, my team mates and I developed a ECG Monitor protoype device for our analog project in EN2091 Module. The goal of this project was to develop the a fully functioning device only using analog electronic components such as resistors, capacitors and OpAmps.

@@ -5,6 +5,8 @@ description: Speaker Recognition model based on  Mel Frequency Cepstral Coeffici
 img: assets/img/mfcc.png
 importance: 2
 category: software
+tags : ['PyTorch','Signal Processing', 'Speaker Recognition']
+github: https://github.com/devnithw/mfcc-speaker-recognition
 ---
 
 > This project is an approach we used for our solution at Signal Processing Cup 2024.

@@ -5,6 +5,8 @@ description: A mobile game developed using Unity Engine
 img: assets/img/us1.jpg
 importance: 4
 category: hobby
+tags : ['Unity Engine','Game Development']
+github: https://github.com/devnithw/UnmaskedSakura
 ---
 
 This is a hobbyist game development project. I used Unity Engine to make a 2D platformer game. The artwork for this game is entirely hand-drawn by me. It is freely available on Google Play Store and you can play the online version [here](https://devnithw.github.io/PlayUnmaskedSakura)

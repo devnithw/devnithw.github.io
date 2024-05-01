@@ -5,6 +5,8 @@ description: Classification of blood cell images captured using CellaVision DM96
 img: assets/img/bloodcells.jpg
 importance: 5
 category: software
+tags : ['Deep Learning', 'Tensorflow']
+github: https://github.com/devnithw/blood-cell-classification
 ---
 
 > Originally publised as a Notebook [Kaggle](https://www.kaggle.com/code/devnithw/classifying-blood-cells-using-cnn).
