@@ -9,7 +9,7 @@ categories: articles
 thumbnail: assets/img/mfcc.png
 ---
 
-`This article was originally published in ECarrier Magazine April 2024 Issue, the official magazine of Electronics and Telecommunciations Engineering Department at University of Moratuwa`
+`This article was originally published in [ECarrier Magazine April 2024 Issue](https://ent.uom.lk/wp-content/uploads/2024/06/E-Carrier-2024-Apr-Issue.pdf), the official magazine of Electronics and Telecommunciations Engineering Department at University of Moratuwa`
 
 The Fourier Transform, a convenient technique to determine the frequency components of a signal, serves as one of the primary methods to extract features of an audio signal. However, with the advancement of the signal processing domain, more sophisticated methods such as short-time Fourier transform (STFT) and wavelet transform have been developed. In this article, we demonstrate one such evolved technique named “mel-frequency cepstral coefficients” (MFCC), which is adapted particularly for speech recognition tasks as a competent feature extractor. Furthermore, we delve into an effective application of this technique for speaker recognition at the IEEE Signal Processing Cup 2024 competition.
 
