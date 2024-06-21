@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Mel-Frequency Cepstral Coefficients - Looking
-Beyond the Spectrum of Human Speech
-date: 2024-06-12 21:01:00
+title: Mel Frequency Cepstral Coefficients
+date: 2024-06-21 08:57:00-0400
 description: Originally published in ECarrier Magazine April 2024 Issue
 tags: mfcc signal-processing deep-learning
 categories: articles
