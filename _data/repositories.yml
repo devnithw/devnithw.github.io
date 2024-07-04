@@ -5,7 +5,12 @@ github_users:
 github_repos:
   - devnithw/mfcc-speaker-recognition
   - devnithw/SLRC-vision-system
+  - SkillSurf/introduction_genAI
+  - devnithw/blood-cell-classification
+  - devnithw/gesture-tinyml
   - devnithw/ecg-monitor
-  - devnithw/dsp-python
+  - devnithw/stm32-devboard
   - devnithw/julia-tutorials
   - devnithw/UnmaskedSakura
+
+
