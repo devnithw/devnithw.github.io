@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Intro to GenAI workshop happening on May 5th! Join me in session 2 to learn how to finetune SDXL.
+Intro to GenAI workshop happening on May 9th! Join me in session 2 to learn how to finetune SDXL.
