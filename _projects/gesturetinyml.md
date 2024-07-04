@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gesture Recognition TinyML
+title: TinyML Gesture Recognition
 description: Classifying two hand gestures using IMU sensor data
 img: assets/img/gesturetinyml.png
 importance: 5
