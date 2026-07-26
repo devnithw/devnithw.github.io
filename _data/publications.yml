@@ -1,7 +1,7 @@
 main:
 
   - title: "PathKGen: Pathology Knowledge Assisted MLLM for Explainable Histopathology"
-    authors: Nadun Rajapaksha, Sandun Herath, Devnith Wijesinghe, Isiri Withanawasam, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+    authors: Nadun Rajapaksha*, Sandun Herath*, Devnith Wijesinghe*, Isiri Withanawasam*, Hasindri Watawana, Ranga Rodrigo (*Equal contribution)
     conference_short: WAVCV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2027.
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
