@@ -9,7 +9,8 @@ I am a final-year engineering undergraduate from University of Moratuwa. I compl
 ## Research Interests
 
 - **Deep Generative Modelling:** diffusion language models, flow matching
-- **LLMs & Generative AI:** vision language models, 
+- **LLMs & Generative AI:** vision language models
+
 <!-- ## News
 - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
 - **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
