@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a final-year engineering undergraduate from University of Moratuwa. I completed my final-year thesis on **"Vision Language Models for Explainable Histopathology"** advised by [Dr. Ranga Rodrigo](https://scholar.google.com/citations?user=YaEJbvYAAAAJ&hl=en). Before that, I worked as a visiting research student at the University of Sydney advised by [Prof. Anusha Withana](https://profiles.sydney.edu.au/anusha.withana).
+I am a final-year engineering undergraduate from University of Moratuwa. I completed my final-year thesis on **"Vision Language Models for Explainable Histopathology"** advised by [Dr. Ranga Rodrigo](https://scholar.google.com/citations?user=YaEJbvYAAAAJ&hl=en). Before that, I worked as a visiting research student at the University of Sydney, where I was advised by [Prof. Anusha Withana](https://profiles.sydney.edu.au/anusha.withana).
 
 ## Research Interests
 
