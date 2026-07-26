@@ -207,7 +207,7 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      border-radius: 16px;
     }
 
       .image.avatar:before {
@@ -215,8 +215,8 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
-        width: 45%;
+        border-radius: 16px;
+        width: 50%;
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
@@ -225,7 +225,7 @@ papertitle {
 
     #header .image.avatar {
       margin: 0 0 1em 0;
-      width: 8.00em;
+      width: 9.50em;
     }
 
 h3, h4, h5, h6 {
@@ -499,8 +499,8 @@ footer {
 
 
    .image.avatar img {
-        border-radius: 100%;
-        width: 117px;
+        border-radius: 16px;
+        width: 130px;
         padding:20px;
       }
   #head1o2 {
@@ -555,8 +555,8 @@ footer {
   }
 
   .image.avatar img {
-      border-radius: 100%;
-      width: 95px;
+      border-radius: 16px;
+      width: 105px;
       padding:20px;
   }
   #head1o2 {
