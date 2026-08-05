@@ -235,7 +235,7 @@ h3, h4, h5, h6 {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 550;
   color:#043361;
   margin:0 0 20px;
 }
@@ -244,7 +244,7 @@ h2 {
   color:#043361;
   font-weight: 500;
   margin:2px 0px 15px;
-  font-size: 80%;
+  font-size: 130%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -411,7 +411,7 @@ header ul a:active {
 
 strong {
   color:#222;
-  font-weight:500;
+  font-weight:550;
 }
 
 @media (prefers-color-scheme: dark) {
