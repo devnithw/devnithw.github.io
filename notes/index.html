@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Devnith Wijesinghe">
+    <meta name="theme-color" content="#222222">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/nicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/nicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/nicons/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/notes.css">
+
+    <title>Notes — Devnith Wijesinghe</title>
+  </head>
+  <body>
+    <div class="container pt-5">
+        <a class="back-link" href="../index.html">&larr; home</a>
+
+        <p class="notes-title pt-4">Notes</p>
+
+        <div id="notes-list" class="pt-3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="../assets/notes.js"></script>
+    <script>
+        fetch("notes.json")
+            .then(res => res.json())
+            .then(notes => {
+                notes.sort((a, b) => b.date.localeCompare(a.date));
+                const list = document.getElementById("notes-list");
+                notes.forEach(note => {
+                    const row = document.createElement("p");
+                    row.className = "note-item py-1 pl-2";
+                    row.innerHTML = `<span class="note-date">${note.date}</span>` +
+                        `<a class="note-link" href="post.html?file=${encodeURIComponent(note.file)}">${note.title}</a>`;
+                    list.appendChild(row);
+                });
+            });
+    </script>
+  </body>
+</html>

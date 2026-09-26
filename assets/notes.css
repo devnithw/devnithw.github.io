@@ -1,0 +1,72 @@
+a {
+    color: #007;
+    text-decoration: underline dotted;
+}
+
+.back-link {
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.back-link:hover {
+    color: #007;
+}
+
+.notes-title {
+    color: #111;
+    font-size: 23pt;
+}
+
+.note-item {
+    border-left: 1px solid #ddd;
+    padding-left: 12px;
+}
+
+.note-date {
+    font-size: 9pt;
+    color: #999;
+    display: inline-block;
+    width: 90px;
+}
+
+.note-link {
+    color: #007;
+    text-decoration: none;
+}
+
+.note-link:hover {
+    color: #111;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    color: #111;
+}
+
+.post-content pre {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.post-content code {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1px 4px;
+}
+
+.post-content pre code {
+    border: none;
+    padding: 0;
+}
+
+.post-date {
+    font-size: 9pt;
+    color: #999;
+}

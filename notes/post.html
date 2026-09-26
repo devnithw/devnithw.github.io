@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Devnith Wijesinghe">
+    <meta name="theme-color" content="#222222">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/nicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/nicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/nicons/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/notes.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <title>Notes — Devnith Wijesinghe</title>
+  </head>
+  <body>
+    <div class="container pt-5">
+        <a class="back-link" href="index.html">&larr; notes</a>
+
+        <div id="post-date" class="post-date pt-4"></div>
+        <div id="post-content" class="post-content pt-2 pb-5"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="../assets/notes.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const file = params.get("file");
+        const contentEl = document.getElementById("post-content");
+
+        if (!file) {
+            contentEl.innerHTML = "<p>No note specified.</p>";
+        } else {
+            fetch("notes.json")
+                .then(res => res.json())
+                .then(notes => {
+                    const note = notes.find(n => n.file === file);
+                    if (note) {
+                        document.title = note.title + " — Devnith Wijesinghe";
+                        document.getElementById("post-date").textContent = note.date;
+                    }
+                })
+                .catch(() => {});
+
+            fetch(`posts/${file}`)
+                .then(res => {
+                    if (!res.ok) throw new Error("not found");
+                    return res.text();
+                })
+                .then(md => {
+                    contentEl.innerHTML = marked.parse(md);
+                })
+                .catch(() => {
+                    contentEl.innerHTML = "<p>Note not found.</p>";
+                });
+        }
+    </script>
+  </body>
+</html>
