@@ -83,3 +83,18 @@ a:hover {
           color: #111;
           text-decoration: underline;
     } */
+
+.site-footer {
+    margin-top: 40px;
+    color: #999;
+    font-size: 9pt;
+}
+
+.site-footer a {
+    color: #999;
+    font-size: inherit;
+}
+
+.site-footer a:hover {
+    color: #111;
+}
