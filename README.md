@@ -1,7 +1,7 @@
 # Academic homepage
 
 ## To-do's
-- [ ] Complete main body
+- [x] Complete main body
 - [ ] Update image
 - [ ] Attach CV
-- [ ] Add blog page
+- [x] Add blog page
